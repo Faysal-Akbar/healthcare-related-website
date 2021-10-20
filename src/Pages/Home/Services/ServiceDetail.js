@@ -22,7 +22,7 @@ const ServiceDetail = () => {
                 <h6>{service?.description}</h6>
                 <h6>Total cost for a check : $550</h6>
                 <Link to="/home">
-                    <Button variant="primary">Go to Home</Button>
+                    <Button variant="outline-primary">Go to Home</Button>
                 </Link>
             </div>
         </Container>

@@ -41,6 +41,7 @@ const useFirebase = () => {
             setUser("");
         })
     }
+    
     useEffect(()=> {
         onAuthStateChanged(auth, user => {
             if(user){

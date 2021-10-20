@@ -13,7 +13,7 @@ const Service = (props) => {
                 <h6>Patients Review : {review}</h6>
                 <h6>{description}</h6>
                 <Link to={`/service/${id}`}>
-                    <button className="btn btn-primary">Details</button>
+                    <button className="btn btn-outline-primary">Details</button>
                 </Link>
             </div>
         </div>
